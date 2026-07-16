@@ -1,0 +1,93 @@
+{
+  "info": {
+    "_postman_id": "2ad7aaa2-4187-40c1-b538-77110dc1269a",
+    "name": "EmployeeAPI",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "56692301",
+    "_collection_link": "https://go.postman.co/collection/56692301-2ad7aaa2-4187-40c1-b538-77110dc1269a?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "https://localhost:7193/api/employee/getEmployees",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:7193/api/employee/getEmployees",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7193",
+          "path": [
+            "api",
+            "employee",
+            "getEmployees"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "https://localhost:7193/api/employee/postEmployee",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"firstName\": \"spencer\",\r\n    \"lastName\": \"test\",\r\n    \"email\": \"test@test.com\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://localhost:7193/api/employee/postEmployee",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7193",
+          "path": [
+            "api",
+            "employee",
+            "postEmployee"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "https://localhost:7193/api/employee/deleteEmployeeById/3",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "https://localhost:7193/api/employee/deleteEmployeeById/3",
+          "protocol": "https",
+          "host": [
+            "localhost"
+          ],
+          "port": "7193",
+          "path": [
+            "api",
+            "employee",
+            "deleteEmployeeById",
+            "3"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

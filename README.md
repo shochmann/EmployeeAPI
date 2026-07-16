@@ -53,6 +53,7 @@ Services/
 
 ## Notes
 
+- PostMan collection of GET,POST,DELETE is included in root directory - "EmployeeAPI.postman_collection.json"
 - Dependencies are injected for the data and the service as Singletons in the Program.cs file.
 - Validation for the fields occurs as attributes that are attached to the Employee model.
 - Implemented an Interface for my service to decouple the controller from the implementation. (e.g. in future if I wanted to get data from database I would not have to change the controller.)
